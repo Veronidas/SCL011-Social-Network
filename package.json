@@ -1,0 +1,31 @@
+{
+  "name": "Laifu",
+  "version": "0.0.1",
+  "description": "Este es un taller de como comenzar proyectos de front-end.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "author": "Fabián Alexis Bravo Abarca",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.3.1",
+    "babel-jest": "^24.0.0",
+    "chai": "^4.2.0",
+    "eslint": "^5.12.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "jest": "^24.9.0",
+    "jest-cli": "*"
+  },
+  "jest": {
+    "transform": {
+      ".*": "<rootDir>/node_modules/babel-jest"
+    },
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "es6"
+    ]
+  }
+}
