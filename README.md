@@ -62,4 +62,5 @@ Buscamos aliviar la necesidad de una red exclusiva solo para cosplayers ó fotó
 
 
 ## diseño general
-
+El Diseño es simple y limpio, para una mayor comprensión con colores  con una tipografía llamada Roboto.
+<a href="https://ibb.co/k94TsWN"><img src="https://i.ibb.co/KL2gp3T/Prototipo.jpg" alt="Prototipo" border="0"></a>
