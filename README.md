@@ -1,59 +1,41 @@
-# Creando una Red Social
+# LAIFU
+
+<a href="https://ibb.co/qk61JSN"><img src="https://i.ibb.co/18c2zgr/Ejemplo-de-otakus-comic-con.jpg" alt="Ejemplo-de-otakus-comic-con" border="0"></a><br /><a target='_blank' href='https://es.imgbb.com/'>Cosplayers</a><br />
 
 ## Índice
 
-* [Preámbulo](#preámbulo)
-* [Resumen del proyecto](#resumen-del-proyecto)
-* [Objetivos de aprendizaje](#objetivos-de-aprendizaje)
-* [Consideraciones generales](#consideraciones-generales)
-* [Parte obligatoria](#parte-obligatoria)
-* [Hacker Edition](#hacker-edition)
-* [Consideraciones técnicas](#consideraciones-técnicas-front-end)
-* [Contenido de referencia](#pistas-/-tips-/-lecturas-complementarias)
+
+* [Introducción](#introducción)
+* [definicion de usuario y necesidades](#definición)
+* [Definicion de producto](#def2)
+* [Diseño general](#diseño)
+
 
 ***
 
-## Preámbulo
+## Introducción
 
 Instagram, Snapchat, Twitter, Facebook, Twitch, Linkedin, etc. Las redes
 sociales han invadido nuestras vidas. Las amamos u odiamos, y much@s no podemos
 vivir sin ellas.
+También son súper útiles y algunos grupos de personas lo han hecho parte de sus vidas
+para poder dedicarse a sus hobbies y conectarse con personas que disfrutan las mismas cosas.
+Por esta razón nace Laifu aplicación que conecta a personas con pasión por los cosplay en donde pueden seguirse entre si informarse de eventos, subir fotos, ver mas destacados making off de cada cosplay y mucho más!
+ 
 
-Hay redes sociales de todo tipo y para todo tipo de intereses. Por ejemplo,
-en una ronda de financiamiento con inversionistas, se presentó una red social
-para químicos en la que los usuarios podían publicar artículos sobre sus
-investigaciones, comentar en los artículos de sus colegas, y filtrar artículos
-de acuerdo a determinadas etiquetas o su popularidad, lo más reciente, o lo
-más comentado.
 
-## Resumen del proyecto
+## definición de usuario y necesidades
 
-En este proyecto construirás una Red Social sobre lo que decidan tú y tu equipo.
-Podría ser, por ejemplo, sobre alimentación saludable, feminismo, educación,
-salud, energías renovables, amantes de las [empanadas](https://es.wikipedia.org/wiki/Empanada) o de
-los [tacos de canasta](https://es.wikipedia.org/wiki/Taco), etc.
 
-Tu Red Social tendrá que permitir a cualquier usuario crear una cuenta de
-acceso y loguearse con ella; crear, editar, borrar y _"likear"_ publicacciones.
 
-## Objetivos de Aprendizaje
+## Definición de producto
 
-El objetivo principal de aprendizaje de este proyecto es construir una
-[Single-page Application (SPA)](https://es.wikipedia.org/wiki/Single-page_application)
-[_responsive_](https://github.com/Laboratoria/curricula-js/tree/master/topics/css/02-responsive)
- (con más de una vista / página) en la que podamos **leer y escribir datos.**
 
-## Consideraciones generales
 
-- Este proyecto se debe "resolver" en tríos.
+## diseño general
 
-- La lógica del proyecto debe estar implementada completamente en JavaScript (ES6+),
-HTML y CSS :smiley:. Para este proyecto no está permitido utilizar
-frameworks o librerías de CSS y JS.
 
-- La división del trabajo debe permitir que todo el equipo
-practique el aprendizaje de todo lo esperado **cada sprint**. _No se dividan el
-trabajo como en una fábrica._
+
 
 - Trabajen en una sola historia por vez, no pueden avanzar a la siguiente sin
 haber completado la anterior.
