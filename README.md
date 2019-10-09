@@ -41,25 +41,26 @@ USER-PERSONA
 En esta sección integraremos capturas de distintos usuarios como el caso de Cuteshy, Cristian y Javier, en el cual dieron su opinión para la realización de nuestra red social LAIFU.
 
 CUTESHY
+
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/PwvmZRR/Captura-de-pantalla-de-2019-10-09-00-36-23.png" alt="Captura-de-pantalla-de-2019-10-09-00-36-23" border="0"></a>
 
+
 CRISTIAN
+
+
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/wYSytWM/cristian.png" alt="cristian" border="0"></a>
 
 JAVIER
+
+
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/zR8wq9G/javier.png" alt="javier" border="0"></a>
 
 PROMEDIO
+
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/fSmBKs6/resumen.png" alt="resumen" border="0"></a>
 
 
 Tomando en cuenta los datos recopilados en la encuesta realizada, se pudo obtener como resultado de lo que les gustaría encontrar en esta red social LAIFU ,es principalmente la visualización de fotos de Cosplayers, tutoriales generales y publicaciones de vestimenta y accesorios para una realizacion eficiente para hacer un cosplay o para la satisfacción del seguidor de esta área.
-
-
-
-
-
-
 
 
 
