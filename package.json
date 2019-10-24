@@ -1,12 +1,14 @@
 {
-  "name": "Laifu",
+  "name": "laifu",
   "version": "0.0.1",
   "description": "Este es un taller de como comenzar proyectos de front-end.",
   "main": "index.js",
-  "scripts": {
+  "scripts":{
+    "dev": "nodemon src/index.js",
+  
     "test": "jest --coverage"
   },
-  "author": "Fabián Alexis Bravo Abarca",
+  "author": "Laboratoria",
   "license": "ISC",
   "devDependencies": {
     "@babel/preset-env": "^7.3.1",
@@ -16,7 +18,8 @@
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.16.0",
     "jest": "^24.9.0",
-    "jest-cli": "*"
+    "jest-cli": "*",
+    "nodemon": "^1.19.4"
   },
   "jest": {
     "transform": {
@@ -27,5 +30,26 @@
       "json",
       "es6"
     ]
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "errorhandler": "^1.5.1",
+    "express": "^4.17.1",
+    "fs-extra": "^8.1.0",
+    "handlebars": "^4.4.3",
+    "md5": "^2.2.1",
+    "mongoose": "^5.7.5",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marciaalegria/SCL011-Social-Network.git"
+  },
+  "bugs": {
+    "url": "https://github.com/marciaalegria/SCL011-Social-Network/issues"
+  },
+  "homepage": "https://github.com/marciaalegria/SCL011-Social-Network#readme"
 }
