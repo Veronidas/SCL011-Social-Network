@@ -1,13 +1,7 @@
-let About = {
-    render : async () => {
-        let view =  /*html*/`
-            <section class="section">
-                <h1> About </h1>
-            </section>
-        `
-        return view
-    }
-
-}
-
-export default About;
+const paragraph = document.createElement("p");
+// Crear nodo de tipo Text
+const content = document.createTextNode("Hola Mundo!");
+// Añadir el nodo Text como hijo del nodo Element
+paragraph.appendChild(content);
+// Añadir el nodo Element como hijo de la pagina
+document.body.appendChild(paragraph);
