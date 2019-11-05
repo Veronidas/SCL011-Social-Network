@@ -1,16 +1,59 @@
 <html>
 
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet">
   <title>Laifu</title>
 </head>
+
 <body>
-  <!-- VERO -->
-  <!-- TERESA -->
-   //hola
-  
-  <!-- EVE -->
+
+  <nav>
+    <ul>
+      <li><a href="#" data-target="home" class="nav-link">Home</a></li>
+      <li><a href="#" data-target="profile" class="nav-link">My Profile</a></li>
+      <li><a href="#" data-target="editprofile" class="nav-link">Edit</a></li>
+      <li style="float:right"><a href="#" data-target="upload" class="nav-link">Upload</a></li>
+    </ul>
+  </nav>
+
+  <div id="container">
+
+
+    <div id="home" class="page active">
+      <form action="">
+        <img src="https://github.com/Veronidas/SCL011-Social-Network/blob/master/images/Logo.png?raw=true" class="logo"
+          alt="">
+        <label for="email">Ingresa tu correo electrónico : </label>
+        <input id="email" type="email" name="" id="" required>
+        <label for="name">Nombre: </label>
+        <input id="name" type="text" required>
+        <label for="lastName">Apellidos:</label>
+        <input id="lastName" type="text" required>
+        <label for="password">Ingresa tu contraseña: </label>
+        <input id="password" type="password" name="" id="" required>
+        <input type="button" value="Crear Cuenta" class="btn-success">
+      </form>
+    </div>
+
+    <div id="profile" class="page">
+      <h1>PAGINA 2</h1>
+    </div>
+
+    <div id="editprofile" class="page">
+      <h1>PAGINA 3</h1>
+    </div>
+
+    <div id="upload" class="page">
+      <h1>PAGINA 4</h1>
+    </div>
+
+  </div>
   <!-- importante poner sus scripts al final del archivo -->
-  <script src="js/app.js" type='module'></script>
+  <script src="js/view-main.js" type='module'></script>
 </body>
 
 </html>

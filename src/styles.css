@@ -1,4 +1,128 @@
-/* VERO */
-/* TERESA */
-/* MARCIA */
-/* EVE */
+/*------GENERAL------ */
+
+body{
+    font-family: 'Raleway';
+}
+
+/* ------VIEWS------ */
+#create {
+    width: 300px;
+    margin: 100px auto;
+    padding: 10px;
+    color: #333;
+    align-items: center;
+    display: block;
+    /* background-color: #f1f1f17c; */
+    justify-content: space-evenly;
+}
+
+#profile {
+    width: 300px;
+    padding: 10px;
+    margin: 100px auto;
+    background-color: mediumslateblue;
+}
+
+#editprofile {
+    width: 300px;
+    padding: 10px;
+    margin: 100px auto;
+    background-color: rgb(238, 104, 171);
+}
+
+#upload {
+    width: 300px;
+    padding: 10px;
+    margin: 100px auto;
+    background-color: rgb(30, 176, 202);
+}
+
+/* ------FORMS------ */
+form { 
+    padding: 10%;
+    margin: 10%;
+    border: 1px solid rgba(201, 201, 207, 0.924);
+    border-radius: 3px;
+}
+
+label {
+ font-size: medium;
+}
+
+/*------BUTTONS------ */
+
+.btn-success {
+    background-color: #000000;
+    color: white;
+    border-radius: 3px;
+    border: 2px solid #000000;
+    font-family: inherit;
+    display: inline-block;
+    width: 160px;
+    margin-top: 10%
+}
+
+/* ------LOGO CLASS------ */
+
+.logo {
+    width: 100px;
+    padding: 10px;
+}
+
+
+/* ------NAVBAR------ */
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+li {
+    float: left;
+  }
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+
+  li a:hover {
+    background-color: #111;
+  } 
+
+/* -----PAGES----- */
+
+.page {
+    display: none;
+    width: 100%;
+    min-height: 100%;
+    /* position: fixed; */
+}
+
+.active {
+    display: block;
+}
+
+.big {
+    font-size: 5em;
+    font-weight: 900;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    transition: all 0.4s;
