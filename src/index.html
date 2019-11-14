@@ -24,10 +24,12 @@
   <div id="container">
 
 
+    <!-- HOME -->
+
     <div id="home" class="page active">
-      <form action="">
-        <img src="https://github.com/Veronidas/SCL011-Social-Network/blob/master/images/Logo.png?raw=true" class="logo"
-          alt="">
+      <img src="https://github.com/Veronidas/SCL011-Social-Network/blob/master/images/Logo.png?raw=true" class="logo"
+        alt="">
+      <form action="" class="create">
         <label for="email">Ingresa tu correo electrónico : </label>
         <input id="email" type="email" name="" id="" required>
         <label for="name">Nombre: </label>
@@ -40,17 +42,24 @@
       </form>
     </div>
 
-    <div id="profile" class="page">
-      <h1>Create Profile</h1>
-      <img src="https://github.com/Veronidas/SCL011-Social-Network/blob/master/images/Logo.png?raw=true" class="logo"
-          alt="">
-      
-    </div>
 
-    <div id="editprofile" class="page">
-      <h1>Edit Profile</h1>
+    <!-- PROFILE -->
+
+
+    <div id="profile" class="page">
       <img src="https://github.com/Veronidas/SCL011-Social-Network/blob/master/images/Logo.png?raw=true" class="logo"
-          alt="">
+        alt="">
+      <img src="https://pbs.twimg.com/media/EJXH5eWXsAgkQ49?format=jpg&name=medium" alt="" class="profilepic">
+      <hr>
+      Agrega tu comentario:
+      <input id="new_comment"><input type="submit" onClick="addComment()"></div>
+      <div id="comments"></div>
+
+
+      <!-- EDIT PROFILE-->
+    <div id="editprofile" class="page">
+      <img src="https://github.com/Veronidas/SCL011-Social-Network/blob/master/images/Logo.png?raw=true" class="logo"
+        alt="">
       <form action="" name="formulario" method="get">
         <label for="name">nombre</label>
         <input id="name" type="name" value="" name="" id="" required>
@@ -71,20 +80,25 @@
       </form>
     </div>
 
-    <div id="upload" class="page">  
+
+    <!-- UPLOAD -->
+
+
+    <div id="upload" class="page">
       <div class="card">
-        <img src="https://github.com/Veronidas/SCL011-Social-Network/blob/master/images/Logo.png?raw=true" class="logo"  alt="">
-        
-        <input type="file" name="" id="img-uplader">  
-           
-        
-      </div>
+        <img src="https://github.com/Veronidas/SCL011-Social-Network/blob/master/images/Logo.png?raw=true" class="logo"
+          alt="">
+        <input type="file" name="" id="img-uplader">
+        <hr>
       </div>
     </div>
+  </div>
 
   </div>
   <!-- importante poner sus scripts al final del archivo -->
+  <script src="https://s3.amazonaws.com/stitch-sdks/js/bundles/4.6.0/stitch.js"></script>
   <script src="js/view-main.js" type='module'></script>
+  <script src="js/model-data.js" type='module'></script>
 </body>
 
 </html>

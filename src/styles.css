@@ -2,54 +2,54 @@
 
 body{
     font-family: 'Raleway';
+    color: 333;
 }
 
 /* ------VIEWS------ */
-#create {
+#home {
     width: 300px;
-    margin: 100px auto;
     padding: 10px;
-    color: #333;
-    align-items: center;
-    display: block;
-    /* background-color: #f1f1f17c; */
-    justify-content: space-evenly;
+    margin: 100px auto;
+    border: 1px solid rgba(201, 201, 207, 0.924);
+    border-radius: 3px;
 }
 
 #profile {
     width: 300px;
     padding: 10px;
     margin: 100px auto;
-    background-color: mediumslateblue;
+    border: 1px solid rgba(201, 201, 207, 0.924);
+    border-radius: 3px;
+}
+
+.profilepic {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 285px;
 }
 
 #editprofile {
     width: 300px;
     padding: 10px;
     margin: 100px auto;
-    background-color: rgb(238, 104, 171);
+    border: 1px solid rgba(201, 201, 207, 0.924);
+    border-radius: 3px;
 }
 
 #upload {
     width: 300px;
     padding: 10px;
     margin: 100px auto;
-    background-color: #ffffff;
-    padding: 10%;
-    margin: 10%;
     border: 1px solid rgba(201, 201, 207, 0.924);
     border-radius: 3px;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-
 }
 
 /* ------FORMS------ */
 form { 
     padding: 10%;
     margin: 10%;
-    border: 1px solid rgba(201, 201, 207, 0.924);
+    border: 1px solid rgba(197, 29, 99, 0.877);
     border-radius: 3px;
 }
 
@@ -118,7 +118,6 @@ li a {
     display: none;
     width: 100%;
     min-height: 100%;
-    /* position: fixed; */
 }
 
 .active {
@@ -132,5 +131,17 @@ li a {
 
 h1 {
     font-size: 2rem;
-    font-weight: 600;
+    font-weight: 400;
     transition: all 0.4s;
+}
+
+hr {
+    border-top: 1px solid #cc095ac7;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#new_comment {
+    margin-top: 10px;
+}
